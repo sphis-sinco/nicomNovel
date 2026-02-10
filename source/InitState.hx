@@ -1,8 +1,6 @@
-package;
+import macohi.overrides.MState;
 
-import flixel.FlxState;
-
-class PlayState extends FlxState
+class InitState extends MState
 {
 	override public function create()
 	{
